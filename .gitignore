@@ -1,0 +1,13 @@
+# Terraform working folder (downloaded providers)
+.terraform/
+
+# State files - can contain secrets
+*.tfstate
+*.tfstate.*
+
+# Saved plans - can contain secrets
+tfplan
+*.tfplan
+
+# Variable files - can contain secrets
+*.tfvars
